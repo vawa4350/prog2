@@ -1,5 +1,4 @@
 """ Python interface to the C++ Integer class """
-#integer.py
 
 import ctypes
 lib = ctypes.cdll.LoadLibrary('./libinteger.so')
